@@ -1,0 +1,17 @@
+name: environment-launcher
+version: git
+summary: Configurable work environment launcher
+description: |
+  Start your environment in 1 click
+confinement: devmode
+base: core20
+parts:
+  environment-launcher:
+    plugin: go
+    go-importpath: github.com/mgorunuch/environment-launcher
+    source: .
+    source-type: git
+apps:
+  environment-launcher:
+    command: bin/environment-launcher
+    daemon: simple
