@@ -1,0 +1,14 @@
+#apps:
+#  - name: "[SELF] Some name"
+#    commands:
+#      - name: terminal
+#        shell:
+#          - "terminator"
+#          - "-l"
+#          - "MY_LAYOUT"
+#      - name: goland
+#        shell:
+#          - "/home/mgorunuch/.local/bin/goland"
+#          - "dontReopenProjects"
+
+apps:
